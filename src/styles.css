@@ -1,0 +1,80 @@
+form {
+  display: inline-flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, #d0f0f0, #fbf0d4);
+  padding: 50px 0;
+  width: 100%;
+}
+
+#dog-bread {
+  padding: 10px;
+  font-size: 1.4rem;
+  width: 30%;
+  min-width: 200px;
+}
+
+#dog-bread option {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+form label {
+  padding: 5px;
+}
+
+form input {
+  padding: 5px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 30px 2px gray;
+}
+
+#flex {
+  display: flex;
+  margin-top: 50px;
+  height: 400px;
+}
+
+#dog-img {
+  width: 60%;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.dog-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dog-img img {
+  max-height: 400px;
+  max-width: 100%;
+  min-height: 300px;
+}
+
+#next-but {
+  width: 40%;
+}
+
+#next-but a {
+  font-size: 1.5rem;
+  color: skyblue;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+}
+
+#next-but a:hover {
+  box-shadow: 0px 0px 10px lightblue;
+  text-shadow: 0px 0px 5px lightblue;
+}
